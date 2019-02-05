@@ -8,9 +8,22 @@
 
     <Button
         android:id="@+id/button"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        style="@style/Widget.AppCompat.Button.Small"
+        android:layout_width="265dp"
+        android:layout_height="78dp"
+        android:layout_marginStart="88dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        android:background="@android:color/holo_red_dark"
+        android:shadowColor="@color/colorPrimary"
         android:text="Button"
-        tools:layout_editor_absoluteX="137dp"
-        tools:layout_editor_absoluteY="341dp" />
+        android:textColor="@color/colorPrimary"
+        android:textSize="@android:dimen/app_icon_size"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.453" />
 </android.support.constraint.ConstraintLayout>
